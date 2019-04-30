@@ -1,0 +1,21 @@
+iGiven = iLost + ifree
+iGiven = iLost + ifree + 24
+iGiven = iLost + ifree - +24
+iGiven = iLost * ifree + -24
+iGiven = iLost * ifree + 0
+iGiven = iLost * ifree + +0
+iGiven = iLost * ifree + -0
+iGiven = iLost * ifree + 10.10
+iGiven = iLost * ifree - 1234.1234
+iGiven = iLost * ifree - +154.234
+iGiven = iLost * ifree + -154.234
+
+iGiven = iLost + ifree * itoll
+
+rSoul = rHeart / rMind
+
+= + - * / // /// % @ hello faisal
+= + - * / //
+
+iGiven * iTake = iLost * ifree
+rSoul * rHello = rHeart / rMind

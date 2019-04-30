@@ -1,0 +1,149 @@
+C:\Users\faisa\OneDrive\Documents\University of New Haven\Spring 2017\Script Programming_Python\Programs\Assignments\ExpressionParser>python ExpressionParser.py AssignmentStatements.txt
+
+################################### AssignmentStatements.txt ###################################
+
+Expressions :
+
+Line  1 :  iLife = iFaisal - +42 + iDestiny + -7
+Line  2 :  rReal = rFantasy + 100.0 - rDreams
+Line  3 :  iLove = 10 + rSleep * -2.5/10
+Line  4 :  iAm = 10%rluck + 20%iSkill + 15/Will + 5%rPleasure + 50.0//iPain
+Line  5 :  iGiven = iLost * iFree
+Line  6 :  rHope = rWill / rPower
+Line  7 :
+Line  8 :  iGiven = iLost * ifree
+Line  9 :  iGiven = iLost * ifree + 24
+Line  10 :  iGiven = iLost * ifree - +24
+Line  11 :  iGiven = iLost * ifree + -24
+Line  12 :  iGiven = iLost * ifree + 0
+Line  13 :  iGiven = iLost * ifree + +0
+Line  14 :  iGiven = iLost * ifree + -0
+Line  15 :  iGiven = iLost * ifree + 10.10
+Line  16 :  iGiven = iLost * ifree - 1234.1234
+Line  17 :  iGiven = iLost * ifree - +154.234
+Line  18 :  iGiven = iLost * ifree + -154.234
+Line  19 :  rSoul = rHeart / rMind
+
+#######################################################################################
+
+First Phase
+
+Line 1 :  New Expression:  varint = varint - litint + varint + litint
+Line 2 :  New Expression:  varreal = varreal + litreal - varreal
+Line 3 :  New Expression:  varint = litint + varreal * litreal/litint
+Line 4 :  New Expression:  varint = litint%varreal + litint%varint + litint/Wvarint + litint%varreal + litreal//varint
+Line 5 :  New Expression:  varint = varint * varint
+Line 6 :  New Expression:  varreal = varreal / varreal
+Line 7 :  Expression not valid!
+Line 8 :  New Expression:  varint = varint * varint
+Line 9 :  New Expression:  varint = varint * varint + litint
+Line 10 :  New Expression:  varint = varint * varint - litint
+Line 11 :  New Expression:  varint = varint * varint + litint
+Line 12 :  New Expression:  varint = varint * varint + litint
+Line 13 :  New Expression:  varint = varint * varint + litint
+Line 14 :  New Expression:  varint = varint * varint + litint
+Line 15 :  New Expression:  varint = varint * varint + litreal
+Line 16 :  New Expression:  varint = varint * varint - litreal
+Line 17 :  New Expression:  varint = varint * varint - litreal
+Line 18 :  New Expression:  varint = varint * varint + litreal
+Line 19 :  New Expression:  varreal = varreal / varreal
+
+#######################################################################################
+
+First Phase
+
+Line 1 :  New Expression:  varint opequal varint opsub litint opadd varint opadd litint
+Line 2 :  New Expression:  varreal opequal varreal opadd litreal opsub varreal
+Line 3 :  Expression not valid!
+Line 4 :  Expression not valid!
+Line 5 :  New Expression:  varint opequal varint opmult varint
+Line 6 :  New Expression:  varreal opequal varreal oprdiv varreal
+Line 7 :  Expression not valid!
+Line 8 :  New Expression:  varint opequal varint opmult varint
+Line 9 :  New Expression:  varint opequal varint opmult varint opadd litint
+Line 10 :  New Expression:  varint opequal varint opmult varint opsub litint
+Line 11 :  New Expression:  varint opequal varint opmult varint opadd litint
+Line 12 :  New Expression:  varint opequal varint opmult varint opadd litint
+Line 13 :  New Expression:  varint opequal varint opmult varint opadd litint
+Line 14 :  New Expression:  varint opequal varint opmult varint opadd litint
+Line 15 :  New Expression:  varint opequal varint opmult varint opadd litreal
+Line 16 :  New Expression:  varint opequal varint opmult varint opsub litreal
+Line 17 :  New Expression:  varint opequal varint opmult varint opsub litreal
+Line 18 :  New Expression:  varint opequal varint opmult varint opadd litreal
+Line 19 :  New Expression:  varreal opequal varreal oprdiv varreal
+
+#######################################################################################
+
+Second Phase
+
+Line 1 :  New Expression:  varint opequal varint opsub litint opadd varint opadd litint
+Line 2 :  New Expression:  varreal opequal varreal opadd litreal opsub varreal
+Line 3 :  Expression not valid!
+Line 4 :  Expression not valid!
+Line 5 :  New Expression:  varint opequal termint
+Line 6 :  New Expression:  varreal opequal termreal
+Line 7 :  Expression not valid!
+Line 8 :  New Expression:  varint opequal termint
+Line 9 :  New Expression:  varint opequal termint opadd litint
+Line 10 :  New Expression:  varint opequal termint opsub litint
+Line 11 :  New Expression:  varint opequal termint opadd litint
+Line 12 :  New Expression:  varint opequal termint opadd litint
+Line 13 :  New Expression:  varint opequal termint opadd litint
+Line 14 :  New Expression:  varint opequal termint opadd litint
+Line 15 :  New Expression:  varint opequal termint opadd litreal
+Line 16 :  New Expression:  varint opequal termint opsub litreal
+Line 17 :  New Expression:  varint opequal termint opsub litreal
+Line 18 :  New Expression:  varint opequal termint opadd litreal
+Line 19 :  New Expression:  varreal opequal termreal
+
+#######################################################################################
+
+Third Phase
+
+Line 1 :  Expression not valid!
+Line 2 :  Expression not valid!
+Line 3 :  Expression not valid!
+Line 4 :  Expression not valid!
+Line 5 :  New Expression:  varint opequal termint
+Line 6 :  New Expression:  varreal opequal termreal
+Line 7 :  Expression not valid!
+Line 8 :  New Expression:  varint opequal termint
+Line 9 :  Expression not valid!
+Line 10 :  Expression not valid!
+Line 11 :  Expression not valid!
+Line 12 :  Expression not valid!
+Line 13 :  Expression not valid!
+Line 14 :  Expression not valid!
+Line 15 :  Expression not valid!
+Line 16 :  Expression not valid!
+Line 17 :  Expression not valid!
+Line 18 :  Expression not valid!
+Line 19 :  New Expression:  varreal opequal termreal
+
+#######################################################################################
+
+Final Phase
+
+Line 1 :  Expression not valid!
+Line 2 :  Expression not valid!
+Line 3 :  Expression not valid!
+Line 4 :  Expression not valid!
+Line 5 :  New Expression:  statement
+Line 6 :  New Expression:  statement
+Line 7 :  Expression not valid!
+Line 8 :  New Expression:  statement
+Line 9 :  Expression not valid!
+Line 10 :  Expression not valid!
+Line 11 :  Expression not valid!
+Line 12 :  Expression not valid!
+Line 13 :  Expression not valid!
+Line 14 :  Expression not valid!
+Line 15 :  Expression not valid!
+Line 16 :  Expression not valid!
+Line 17 :  Expression not valid!
+Line 18 :  Expression not valid!
+Line 19 :  New Expression:  statement
+
+#######################################################################################
+
+C:\Users\faisa\OneDrive\Documents\University of New Haven\Spring 2017\Script Programming_Python\Programs\Assignments\ExpressionParser>

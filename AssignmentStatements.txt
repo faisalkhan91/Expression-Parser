@@ -1,0 +1,22 @@
+iLife = iFaisal - +42 + iDestiny + -7
+rReal = rFantasy + 100.0 - rDreams
+iLove = 10 + rSleep * -2.5/10
+iAm = 10%rluck + 20%iSkill + 15/Will + 5%rPleasure + 50.0//iPain
+iGiven = iLost * iFree
+rHope = rWill / rPower
+
+iGiven = iLost * ifree
+iGiven = iLost * ifree + 24
+iGiven = iLost * ifree - +24
+iGiven = iLost * ifree + -24
+iGiven = iLost * ifree + 0
+iGiven = iLost * ifree + +0
+iGiven = iLost * ifree + -0
+iGiven = iLost * ifree + 10.10
+iGiven = iLost * ifree - 1234.1234
+iGiven = iLost * ifree - +154.234
+iGiven = iLost * ifree + -154.234
+rSoul = rHeart / rMind
+
+= + - * / // /// % @ hello faisal
+= + - * / //
